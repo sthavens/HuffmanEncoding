@@ -9,7 +9,7 @@ class TreeTest {
 
     @BeforeEach
     void setUp() {
-        Node<Integer> testHeadNode = new Node<>(1);
+        TreeNode<Integer> testHeadNode = new TreeNode<>(1);
         testTree = new Tree<>(testHeadNode);
     }
 

@@ -1,9 +1,9 @@
 package huffmanencoding;
 
 public class Tree<T> {
-    private Node<T> head;
+    private TreeNode<T> head;
 
-    public Tree(Node<T> head) {
+    public Tree(TreeNode<T> head) {
         this.head = head;
     }
 
